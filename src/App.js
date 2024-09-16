@@ -143,7 +143,7 @@ const PersonalBrandingSite = () => {
   return (
     <div className="max-w-4xl mx-auto p-4">
       <div className="flex items-center mb-8">
-        <img src="/api/placeholder/300/300" alt="Luis Sanchez" className="w-32 h-32 rounded-full mr-6" />
+        <img src="/luis-sanchez-profile.jpg" alt="Luis Sanchez" className="w-32 h-32 rounded-full mr-6" />
         <div>
           <h1 className="text-3xl font-bold mb-2">{personalInfo.name}</h1>
           <p className="text-xl text-gray-600">{personalInfo.title}</p>
