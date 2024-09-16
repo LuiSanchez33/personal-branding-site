@@ -1,6 +1,7 @@
 {
   "name": "personal-branding-site",
   "version": "0.1.0",
+  "homepage": "https://LuiSanchez33.github.io/personal-branding-site",
   "private": true,
   "dependencies": {
     "@radix-ui/react-tabs": "^1.1.0",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
